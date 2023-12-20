@@ -1,0 +1,31 @@
+﻿@using Task.Models
+@model Student
+
+<section id="student">
+    <div class="cards">
+        <div class="card-text">
+            <h3>Dersler:</h3>
+            <p>
+                @Model.Lesson.Name;<br />
+                <span>Not Ortalaması:</span> @Model.Lesson.ExamResult;
+            </p>
+
+            <h3>Finansal Bilgiler:</h3>
+            <span>Öğrenim Ücreti Durumu:</span> @(Model.TuitionFeeStatus ? "Aktif" : "Deaktif");<br />
+            <span>Burs Durumu:</span> @(Model.ScholarshipStatus ? "Var" : "Yok") ;<br />
+            <span>2022 Bahar Dönemi:</span> @(Model.IsCompletedSpringSem ? "Tamamlandi" : "Devam ediyor");<br />
+            <span>2022 Yaz Dönemi:</span> @(Model.IsCompletedSummerSem ? "Tamamlandi" : "Devam ediyor") ;<br />
+            <span>2022 Güz Dönemi:</span> @(Model.IsCompletedFallSem ? "Tamamlandi" : "Devam ediyor"); <br />
+            <span>Kayıt Durumu:</span>@(Model.RegistrationStatus ? "Aktif" : "Deaktif")  ;<br />
+            <span>Mezuniyet Durumu:</span>@(Model.GraduationStatus ? "Hazir" : "Beklemede")  ;<br />
+            <span>Sınav Bilgileri:</span> <br />
+            <span>2022 Güz Dönemi Sınav Sonuçları:</span> <br />
+            @Model.Lesson.Name: @Model.Lesson.ExamResult B+ ;<br />
+            <h3>Kütüphane Bilgileri:</h3>
+            <span>Ödünç Alınan Kitaplar:</span>
+            <br />@Model.Book.Title ;<br /
+            <span>Kütüphane Cezaları:</span> @(Model.LibraryPenalty ? "Var" : "Yok"); <br />
+        </div>
+        <img src="~/assets/img/@Model.ImgUrl" class="card-img" />
+    </div>
+</section>

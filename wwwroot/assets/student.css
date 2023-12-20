@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    font-family: Inter, sans-serif !important;
+    height: 100vh;
+    margin: 20px;
+    background-color: #2a2c55;
+    color: aliceblue;
+    line-height: 2;
+    font-size: 16px;
+
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    height: 55px; /* Yükseklik değeri isteğe bağlı */
+    width: 1200px; /* Genişlik değeri 1150 piksel olarak ayarlandı */
+    z-index: 10000;
+    position: fixed;
+    top: 2%;
+    left: 50%; /* Nav'ı yatayda ortalamak için sol kenarı ekledik */
+    transform: translateX(-50%); /* Ortalama işlemini tamamlamak için transform ekledik */
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color:#202135;
+    /* padding-bottom: 100px; */
+}
+
+
+.nav--items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 12px 0;
+    /* padding:12px 50px 0 0; */
+    padding-right: 50px;
+
+}
+
+.nav--item {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 400; /* 400px yerine 400 */
+}
+
+.contact {
+    background-color:#8387be;
+    line-height: 2;
+   color:black;
+   border: 1px solid #202135;
+   padding: 5px 15px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 16px;
+    margin-right:3px ;
+    color: white;
+  
+}
+.logo img{
+    text-decoration: none;
+    width: 230px;
+    height: 20;
+    padding-top: 3px;
+    padding-left:25px;
+
+    /* color:#8387be; */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+}
+
+
+#back-1{
+    height: 100vh;
+
+}
+.title{
+    /* padding-top: 125px ; */
+    color: #2a2c55;
+    text-align: center;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+   padding-top: 100px;
+}
+
+.contact-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    color: #8387be;
+    font-size: 20px;;
+    padding-top: 40px;
+    font-weight: 700;
+    /* top: 50%; */
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2a2c55;
+    padding-top: 20px;
+}
+.link__contact{
+    /* top: 50%; */
+   text-decoration: none;
+   border: 1px solid #8387be;
+   color:#2a2c55 ;
+   background-color:#8387be;
+   padding: 10px;
+   border-radius: 5px;
+}
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border: 1px solid #8387be;
+   color:#535584 ;
+   background-color:#8387be;
+   padding: 15px 49px;
+   font-size: 18px;
+   /* width: 200px; */
+   border-radius: 5px;
+
+}
+h3{
+    color: #535584;
+    padding-bottom: 40px;
+}
+#student{
+    /* background-color: azure; */
+    padding-top: 100px;
+}
+span{
+    color:#8387be;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+    
+ 
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    height: 600px;
+    width: 600px;
+}
+.card-text p{
+    width: 600px;
+}

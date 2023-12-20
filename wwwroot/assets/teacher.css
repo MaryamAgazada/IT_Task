@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #2a2c55;
+}
+span{
+    color: #000000;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    height: 55px; /* Yükseklik değeri isteğe bağlı */
+    width: 1200px; /* Genişlik değeri 1150 piksel olarak ayarlandı */
+    z-index: 10000;
+    position: fixed;
+    top: 2%;
+    left: 50%; /* Nav'ı yatayda ortalamak için sol kenarı ekledik */
+    transform: translateX(-50%); /* Ortalama işlemini tamamlamak için transform ekledik */
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color:#202135;
+}
+
+
+.nav--items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    /* padding: 12px 0; */
+    padding:12px 10px 0 0;
+    padding-right: 50px;
+
+}
+
+.nav--item {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 400; /* 400px yerine 400 */
+}
+
+.contact {
+    background-color:#8387be;
+    line-height: 2;
+   color:black;
+   border: 1px solid #202135;
+   padding: 5px 15px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 16px;
+    margin-right:3px ;
+    color: white;
+  
+}
+.logo img{
+    text-decoration: none;
+    width: 230px;
+    height: 20;
+    /* padding:auto 0px auto 50px; */
+    padding-left:  50px;
+
+    /* color:#8387be; */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+}
+
+
+.section-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+    border-bottom:1px groove white;
+    width: 1000px;
+    margin: 0 auto; /* Sol ve sağ kenar boşlukları ile otomatik ortala */
+}
+                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                              
+
+
+
+.card-img-top{
+    height: 300px;
+}
+.row{
+padding: 40px 0;
+display: flex;
+align-self: center;
+justify-content: center;
+}
+.btn {
+    background-color: #525699;
+    border: 1px solid #525699;
+    padding: 5px 20px;
+    margin-top: 10px;
+
+}
+.btn:hover{
+    background-color: #202135;
+    border: 1px solid #202135;
+}
+#section--4{
+    height: 100vh;
+    background-color: #2a2c55;
+   
+}
+
+
+
+#section--4 span{
+    font-weight: 700;
+    /* color: #8387be; */
+}
+.card-title{
+    color: #8387be;
+    font-size: 20px;
+}
+.card-text{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 2;
+}

@@ -1,0 +1,50 @@
+﻿@using Task.Models
+<!-- HOME-->
+<section id="section--1" class="section">
+    <div class="slider-container">
+        <div id="prevButton" class="button"><i class="fa-solid fa-backward-step"></i></div>
+        <div class="slider">
+            <div class="slide" id="slide1" style="background-image:url('./assets/img/slider-1.jpeg') ;"></div>
+            <div class="slide" id="slide2" style="background-image:url('./assets/img/slider-2.jpeg') ;"></div>
+            <div class="slide" id="slide3" style="background-image:url('./assets/img/slider-3.jpeg') ;"></div>
+        </div>
+        <div id="nextButton" class="button"><i class="fa-solid fa-forward-step"></i></div>
+    </div>
+
+</section>
+
+
+<!-- Students-->
+<section id="section--2" class="section">
+    <h1 class="section-title">Students</h1>
+    <div class="container">
+        @foreach (var item in ViewData["Students"] as List<Student>)
+        {
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="~/assets/img/@item.ImgUrl" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">@item.Name @item.Surname</h4>
+                            <p class="card-text">ixtisas:@item.Specialty.Name</p>
+                            <a asp-action="GetByIdStudent" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+</section>
+
+<!-- ABOUT -->
+<section id="section--4" class="section">
+    <h1 class="section-title">
+        Niyə Rever Academy ¿
+    </h1>
+    <p class="sctn4-title">
+        Xoş gəldiniz! Akademiyamız, bilik və təhsilə həsr olunmuş bir təhsil müəssisəsidir. Missiyamız, tələbələrə<br /> unikal təhsil təcrübəsi təklif etmək və onları uğura çatdırmaqdır. İşte akademiyamızla bağlı vacib məqamlar:<br />Tələbələrə yalnız bilik vermək deyil, həm də öz potensiallarını aşkar etmələri və inkişaf etmələri üçün mühit təmin etmək.<br />Akademiyamız geniş təhsil spektrumu təklif edir. Bu proqramlar arasında sertifikat proqramları, iş yerində təlimlər, və daha <br /> bir çoxu var. Tələbələrimizin müxtəlif ehtiyaclarına və məqsədlərinə uyğun təhsil seçimləri təklif edirik.
+        Əsas təlim kadromuz,<br /> tələbələrə ən yenilikçi bilik və bacarıqları təmin etmək üçün əlinə gələni edir. Akademiyamız, tələbələrimizin müsabiqə <br /> üstünlüyü qazanmaları və karyera üçün müvəffəqiyyət qazanmaları üçün lazımi təchizata sahib olmalarını məqsəd qoymuşdur.<br />
+        Əsas təlim kadromuz, tələbələrə ən yenilikçi bilik və bacarıqları təmin etmək üçün əlinə gələni edir. Akademiyamız, <br /> tələbələrimizin müsabiqə üstünlüyü qazanmaları və karyera üçün müvəffəqiyyət qazanmaları  üçün lazımi təchizata sahib <br /> olmalarını məqsəd qoymuşdur.<br />Akademiyamız, müasir təhsil standartlarına cavab verərək dizayn edilmişdir. Güncəl texnoloji infrastrukturumuz sayəsində <br /> tələbələrimiz interaktiv dərs materiallarına daxil ola, onlayn sınaqlara iştirak edə və sanal təhsil mühitlərini təcrübə edə bilərlər.
+
+    </p>
+    </p>
+</section>

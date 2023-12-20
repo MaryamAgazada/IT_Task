@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Task.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Task.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\1-1-120x120.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\1-1-120x120.webp"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\1-2-120x120.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\1-2-120x120.webp"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\back-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\back-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\back-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\back-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\edu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\edu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\images.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\logo.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\onlain.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\onlain.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\pexels-tima-miroshnichenko-6266253 (2160p).mp4",
+      "PackagePath": "staticwebassets\\assets\\img\\pexels-tima-miroshnichenko-6266253 (2160p).mp4"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\slider-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\slider-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\slider-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\img\\student.avif",
+      "PackagePath": "staticwebassets\\assets\\img\\student.avif"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\script.js",
+      "PackagePath": "staticwebassets\\assets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\student.css",
+      "PackagePath": "staticwebassets\\assets\\student.css"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\style.css",
+      "PackagePath": "staticwebassets\\assets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\99470\\Desktop\\Task\\wwwroot\\assets\\teacher.css",
+      "PackagePath": "staticwebassets\\assets\\teacher.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Task.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Task.props",
+      "PackagePath": "build\\Task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Task.props",
+      "PackagePath": "buildMultiTargeting\\Task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Task.props",
+      "PackagePath": "buildTransitive\\Task.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

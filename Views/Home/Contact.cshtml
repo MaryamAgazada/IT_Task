@@ -1,0 +1,49 @@
+﻿@using Task.ViewModels
+@model ContactVM
+
+<div class="container">
+    <div class="text">
+        Contact us Form
+    </div>
+    <form method="post">
+        <div class="form-row">
+            <div class="input-data">
+                <input asp-for="Name" type="text" required />
+                <div class="underline"></div>
+                <label asp-for="Name">First Name</label>
+            </div>
+            <div class="input-data">
+                <input asp-for="Surname" type="text" required />
+                <div class="underline"></div>
+                <label asp-for="Surname">Last Name</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="input-data">
+                <input asp-for="Email" type="text" />
+                <div class="underline"></div>
+                <label asp-for="Email">Email Address</label>
+            </div>
+            <div class="input-data">
+                <input asp-for="Phone" type="phone" />
+                <div class="underline"></div>
+                <label asp-for="Phone">Phone</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="input-data textarea">
+                <textarea asp-for="Description" rows="8" cols="80" required></textarea>
+                <br />
+                <div class="underline"></div>
+                <label for="">Write your message</label>
+                <br />
+                <div class="form-row submit-btn">
+                    <div class="input-data">
+                        <div class="inner"></div>
+                        <input type="submit" value="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
